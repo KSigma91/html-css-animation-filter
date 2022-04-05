@@ -11,10 +11,19 @@
 
 /* ////////////////// */
 .ex-2-square {
+    border: 0;
     width: 100px;
     height: 100px;
     background: red;
+    transition: all ease-in-out 3s;
 }
+
+.ex-2-square:active {
+    background: rgb(78, 233, 137);
+    width: 100%;
+}
+
+/* ////////////////// */
 .ex-3-square {
     width: 100px;
     height: 100px;
