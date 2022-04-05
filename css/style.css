@@ -28,7 +28,15 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 0.5s ease 0.1s;
 }
+
+.ex-3-square:hover {
+    background: deepskyblue;
+    border-radius: 50%;
+}
+
+/* ////////////////// */
 .ex-4-square {
     width: 100px;
     height: 100px;
